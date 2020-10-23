@@ -9,6 +9,11 @@ using System.Collections;
 
 namespace Full_GRASP_And_SOLID.Library
 {
+    /*
+    Por el patron expert esta es la clase que tiene la responsabilidad de calcular el total 
+    de costo de producción porque es la experta en los datos necesarios ya que conoce 
+    todos los steps.
+    */
     public class Recipe
     {
         private ArrayList steps = new ArrayList();

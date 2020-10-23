@@ -12,6 +12,7 @@ namespace Full_GRASP_And_SOLID.Library
         Se utilizo el patrón Expert, para asignarle a esta clase la responsabilidad 
         de calcular el precio de costo del step, debido a que esta clase es la 
         experta en la informacion necesitada para hacer este calculo.
+        A su vez se aplica el principio SRP ya que la clase Step no tiene más de una razón de cambio al tener solo una responsabildiad(calcular el precio de costo del step)
         */
         public Step(Product input, double quantity, Equipment equipment, int time)
         {

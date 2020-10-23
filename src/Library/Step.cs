@@ -8,6 +8,11 @@ namespace Full_GRASP_And_SOLID.Library
 {
     public class Step
     {
+        /*
+        Se utilizo el patrón Expert, para asignarle a esta clase la responsabilidad 
+        de calcular el precio de costo del step, debido a que esta clase es la 
+        experta en la informacion necesitada para hacer este calculo.
+        */
         public Step(Product input, double quantity, Equipment equipment, int time)
         {
             this.Quantity = quantity;
